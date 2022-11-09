@@ -4,8 +4,8 @@ export const ContainerTop = styled.div`
   margin-left: 10%;
 
   align-items: center;
-  width: 80%;
-  height: 800px;
+  width: 85%;
+  height: 700px;
   background-color: #040d21;
   position: relative;
 `;
@@ -25,7 +25,7 @@ export const TruckWrap = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  margin: 20px;
 `;
 export const LeftTruck = styled.div`
   color: white;
