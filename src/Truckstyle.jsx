@@ -81,8 +81,8 @@ export const TruckImg = styled.img`
 export const InputWrap = styled.div`
   border: 1px solid black;
   position: absolute;
-  top: 740px;
-  margin-left: 400px;
+  top: 640px;
+  margin-left: 350px;
   width: 900px;
   display: flex;
   align-items: center;
@@ -98,3 +98,33 @@ export const InputWrap = styled.div`
     text-decoration: none;
   }
 `;
+
+export const Body = styled.div`
+margin-top:110px;
+margin-left:400px;
+margin-right:400px;
+margin-bottom:115px;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: grey;
+
+`
+
+export const H2 = styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+`
+export const Mainbody = styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+`
+
