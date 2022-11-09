@@ -24,7 +24,7 @@ const Truck = () => {
           <h5>Контакты </h5>
           <div>
             <h5>
-              <IoCallSharp /> +7 (903) 652 67 22{" "}
+              <IoCallSharp /> +7 (903) 652 67 55{" "}
             </h5>
             <h5>
               <MdSms /> manager@mtk-logistics.ru{" "}
