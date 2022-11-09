@@ -196,3 +196,33 @@ color: grey;
 `
 
 export const Img = styled.div``
+
+export const Img2 = styled.div`
+margin-top:50px;
+margin-right:20px;`
+
+export const Comfort = styled.div`
+display:flex;
+flex-wrap:wrap;
+justify-content:space-evenly;
+align-items:space-between;
+gap:20px;
+margin-top:60px;
+`
+export const Textlarino2 = styled.div`
+> h1 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+/* or 28px */
+margin-top:80px;
+margin-left:20px;
+
+/* text h1 */
+
+color: #2E2E2E;
+}
+`
+

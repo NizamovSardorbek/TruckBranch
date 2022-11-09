@@ -11,7 +11,7 @@ import {
   Mainbody,
   Card,
   Textlari,
-  Img, Container, Body2
+  Img, Container, Body2, Comfort, Textlarino2, Img2
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
 import moshina from "./assets/moshina.png"
@@ -19,6 +19,10 @@ import karta from "./assets/karta.png"
 import yuk from "./assets/yuk.png"
 import temperature from "./assets/Temperature.png"
 import uycha from "./assets/uycha.png"
+import Aptechka from "./assets/Aptechka.png"
+import Document from "./assets/Document.png"
+import shieldcon from "./assets/shieldcon.png"
+import truckcon from "./assets/truckcon.png"
 
 import { MdSms } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
@@ -174,6 +178,73 @@ MTK-logistics.
 </h4>
       </Body2>
       </Mainbody>
+      <center><h2>Почему выбирают нас</h2></center>
+      <Comfort>
+        
+        <Card>
+          <Container>
+          <Textlarino2>
+          <h1>Предложим оптимальную
+стоимость перевозки</h1> 
+        </Textlarino2>
+          <Img2>
+            <img src={shieldcon} alt="" />
+            </Img2>
+            </Container>
+        </Card>
+
+
+        <Card>
+          <Container>
+          <Textlarino2>
+          <h1>Подберём транспорт
+под
+вашу задачу</h1> 
+          
+        </Textlarino2>
+          <Img2>
+            <img src={truckcon} alt="" />
+            </Img2>
+            </Container>
+        </Card>
+
+
+        <Card>
+          <Container>
+          <Textlarino2>
+          <h1>Предоставим услуги 
+страхования груза</h1> 
+          
+        </Textlarino2>
+          <Img2>
+            <img src={Aptechka} alt="" />
+            </Img2>
+            </Container>
+        </Card>
+
+
+        <Card>
+          <Container>
+          <Textlarino2>
+          <h1>Быстро оформим
+все
+ документы. Работаем с НДС</h1> 
+           
+        </Textlarino2>
+          <Img2>
+            <img src={Document} alt="" />
+            </Img2>
+            </Container>
+        </Card>
+
+        <Body>
+        <h4>Мы — межрегиональная транспортная компания
+MTK-logistics.
+Предоставляем услуги по перевозке всех видов грузов по Воронежу и России. Основной принцип нашей работы — надёжность и точность. Предлагаем
+сотрудничество в сфере грузоперевозок по выгодным условиям.</h4>
+      </Body>
+
+      </Comfort>
 
     </div>
   );
