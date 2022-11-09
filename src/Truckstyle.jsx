@@ -124,7 +124,75 @@ align-items:center;
 `
 export const Mainbody = styled.div`
 display:flex;
-justify-content:center;
+flex-wrap:wrap;
+justify-content:space-evenly;
+align-items:space-between;
+gap:20px;
+`
+
+export const Card = styled.div`
+width: 530px;
+height: 216px;
+background: #F2F2F2;
+border-radius: 17px;
+margin-left:90px;
+`
+export const Container = styled.div`
+display:flex;
+justify-content:space-between;
 align-items:center;
 `
 
+export const Textlari = styled.div`
+> h1 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+/* or 28px */
+
+
+/* text h1 */
+
+color: #2E2E2E;
+}
+> a {
+  text-decoration: none;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* main blue */
+
+color: #3284FF;
+}
+> p {
+color:red,
+
+}
+`
+
+export const Body2 = styled.div`
+margin-top:50px;
+margin-left:400px;
+margin-right:400px;
+margin-bottom:115px;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: grey;
+
+`
+
+export const Img = styled.div``

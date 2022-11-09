@@ -9,8 +9,17 @@ import {
   Body,
   H2,
   Mainbody,
+  Card,
+  Textlari,
+  Img, Container, Body2
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
+import moshina from "./assets/moshina.png"
+import karta from "./assets/karta.png"
+import yuk from "./assets/yuk.png"
+import temperature from "./assets/Temperature.png"
+import uycha from "./assets/uycha.png"
+
 import { MdSms } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
 import Truckss from "./assets/Truckss.svg";
@@ -74,8 +83,98 @@ MTK-logistics.
       <H2><h2>Всегда к вашим услугам собственный и наёмный транспорт</h2></H2>
 
       <Mainbody>
-
+        <Card>
+          <Container>
+          <Textlari>
+          <h1>Грузоперевозки по <br />
+            Воронежу и области</h1> 
+          <p>Подробнее</p><br /> 
+          <a href="*">Заказать услугу</a>
+        </Textlari>
+          <Img>
+            <img src={moshina} alt="" />
+            </Img>
+            </Container>
+        </Card>
+        <Card>
+          <Container>
+          <Textlari>
+          <h1>Междугородние
+ перевозки от 1 до 20 тонн 
+            </h1> 
+          <p>Подробнее</p><br /> 
+          <a href="*">Заказать услугу</a>
+        </Textlari>
+          <Img>
+            <img src={karta} alt="" />
+            </Img>
+            </Container>
+        </Card>
+        <Card>
+          <Container>
+          <Textlari>
+          <h1>Доставка сборных грузов 
+/ догрузом /
+попутным грузом </h1> 
+          <p>Подробнее</p><br /> 
+          <a href="*">Заказать услугу</a>
+        </Textlari>
+          <Img>
+            <img src={yuk} alt="" />
+            </Img>
+            </Container>
+        </Card>
+        <Card>
+          <Container>
+          <Textlari>
+          <h1>Рефрежираторные,
+температурные
+перевозки
+ 
+             </h1> 
+          <p>Подробнее</p><br /> 
+          <a href="*">Заказать услугу</a>
+        </Textlari>
+          <Img>
+            <img src={temperature} alt="" />
+            </Img>
+            </Container>
+        </Card>        <Card>
+          <Container>
+          <Textlari>
+          <h1>Перевозка 
+опасных <br />
+грузов</h1> 
+          <p>Подробнее</p><br /> 
+          <a href="*">Заказать услугу</a>
+        </Textlari>
+          <Img>
+            <img src={uycha} alt="" />
+            </Img>
+            </Container>
+        </Card>
+        <Card>
+          <Container>
+          <Textlari>
+          <h1>Не знаете какой тип <br /> перевозок подойдёт именно Вам? <br />
+            </h1> 
+          <p>Заполните форму и лучшие
+ менеджеры <br /> ответят на все
+ Ваши вопросы</p><br /> 
+          
+        </Textlari>
+          <Img>
+          <a href="*">Заполнить форму связи</a>
+            </Img>
+            </Container>
+        </Card>
+        <Body2>
+        <h4>Мы бережно доставим любой груз от 1 тонны до 20 тонн в любую точку страны! С нами, можно спать спокойно и не переживать за сохранность груза, потому что мы несем полную материальную ответственность.
+ы бережно доставим любой груз от 1 тонны до 20 тонн в любую точку страны! С нами, можно спать спокойно и не переживать за сохранность груза, потому что мы несем полную материальную ответственность.
+</h4>
+      </Body2>
       </Mainbody>
+
     </div>
   );
 };
