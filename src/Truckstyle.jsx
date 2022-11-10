@@ -225,8 +225,6 @@ export const MiddleTruck = styled.div`
   color: white;
   padding-bottom: 130px;
   width: 100%;
-
-
 `;
 export const Nash = styled.span`
   display: flex;
@@ -238,6 +236,10 @@ export const Nash = styled.span`
   font-size: 30px;
   line-height: 37px;
   padding-top: 70px;
+  :hover {
+    color: red;
+    cursor: pointer;
+  }
 `;
 export const NashTwo = styled.span`
   display: flex;
@@ -252,6 +254,10 @@ export const NashTwo = styled.span`
   /* or 24px */
 
   color: #8193b2;
+  :hover {
+    color: red;
+    cursor: pointer;
+  }
 `;
 export const UL = styled.ul`
   width: 750px;
@@ -273,6 +279,10 @@ export const LI = styled.li`
     width: 1em;
     margin-left: -1em;
     font-size: 20px;
+  }
+  :hover {
+    color: red;
+    cursor: pointer;
   }
 `;
 
