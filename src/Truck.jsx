@@ -11,19 +11,26 @@ import {
   Mainbody,
   Card,
   Textlari,
-  Img, Container, Body2, Comfort, Textlarino2, Img2
+  Img,
+  Container,
+  Body2,
+  Comfort,
+  Textlarino2,
+  Img2,
+  MiddleTruck,
+  UL,
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
-import moshina from "./assets/moshina.png"
-import karta from "./assets/karta.png"
-import yuk from "./assets/yuk.png"
-import temperature from "./assets/Temperature.png"
-import uycha from "./assets/uycha.png"
-import Aptechka from "./assets/Aptechka.png"
-import Document from "./assets/Document.png"
-import shieldcon from "./assets/shieldcon.png"
-import truckcon from "./assets/truckcon.png"
-
+import moshina from "./assets/moshina.png";
+import karta from "./assets/karta.png";
+import yuk from "./assets/yuk.png";
+import temperature from "./assets/Temperature.png";
+import uycha from "./assets/uycha.png";
+import Aptechka from "./assets/Aptechka.png";
+import Document from "./assets/Document.png";
+import shieldcon from "./assets/shieldcon.png";
+import truckcon from "./assets/truckcon.png";
+import Truck2 from "./assets/Truck 2.svg"
 import { MdSms } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
 import Truckss from "./assets/Truckss.svg";
@@ -77,175 +84,196 @@ const Truck = () => {
       </InputWrap>
 
       <Body>
-        <h4>Мы — межрегиональная транспортная компания
-MTK-logistics.
-Предоставляем услуги по перевозке всех видов грузов по Воронежу и России. Основной принцип нашей работы — надёжность и точность. Предлагаем
-сотрудничество в сфере грузоперевозок по выгодным условиям.
-Мы бережно доставим любой груз от 1 тонны до 20 тонн в любую точку страны! С нами, можно спать спокойно и не переживать за сохранность груза, потому что мы несем полную материальную ответственность.
-</h4>
+        <h4>
+          Мы — межрегиональная транспортная компания MTK-logistics.
+          Предоставляем услуги по перевозке всех видов грузов по Воронежу
+          и России. Основной принцип нашей работы — надёжность и точность.
+          Предлагаем сотрудничество в сфере грузоперевозок по выгодным условиям.
+          Мы бережно доставим любой груз от 1 тонны до 20 тонн в любую точку
+          страны! С нами, можно спать спокойно и не переживать за сохранность
+          груза, потому что мы несем полную материальную ответственность.
+        </h4>
       </Body>
-      <H2><h2>Всегда к вашим услугам собственный и наёмный транспорт</h2></H2>
+      <H2>
+        <h2>Всегда к вашим услугам собственный и наёмный транспорт</h2>
+      </H2>
 
       <Mainbody>
         <Card>
           <Container>
-          <Textlari>
-          <h1>Грузоперевозки по <br />
-            Воронежу и области</h1> 
-          <p>Подробнее</p><br /> 
-          <a href="*">Заказать услугу</a>
-        </Textlari>
-          <Img>
-            <img src={moshina} alt="" />
+            <Textlari>
+              <h1>
+                Грузоперевозки по <br />
+                Воронежу и области
+              </h1>
+              <p>Подробнее</p>
+              <br />
+              <a href="*">Заказать услугу</a>
+            </Textlari>
+            <Img>
+              <img src={moshina} alt="" />
             </Img>
-            </Container>
+          </Container>
         </Card>
         <Card>
           <Container>
-          <Textlari>
-          <h1>Междугородние
- перевозки от 1 до 20 тонн 
-            </h1> 
-          <p>Подробнее</p><br /> 
-          <a href="*">Заказать услугу</a>
-        </Textlari>
-          <Img>
-            <img src={karta} alt="" />
+            <Textlari>
+              <h1>Междугородние перевозки от 1 до 20 тонн</h1>
+              <p>Подробнее</p>
+              <br />
+              <a href="*">Заказать услугу</a>
+            </Textlari>
+            <Img>
+              <img src={karta} alt="" />
             </Img>
-            </Container>
+          </Container>
         </Card>
         <Card>
           <Container>
-          <Textlari>
-          <h1>Доставка сборных грузов 
-/ догрузом /
-попутным грузом </h1> 
-          <p>Подробнее</p><br /> 
-          <a href="*">Заказать услугу</a>
-        </Textlari>
-          <Img>
-            <img src={yuk} alt="" />
+            <Textlari>
+              <h1>Доставка сборных грузов / догрузом / попутным грузом </h1>
+              <p>Подробнее</p>
+              <br />
+              <a href="*">Заказать услугу</a>
+            </Textlari>
+            <Img>
+              <img src={yuk} alt="" />
             </Img>
-            </Container>
+          </Container>
         </Card>
         <Card>
           <Container>
-          <Textlari>
-          <h1>Рефрежираторные,
-температурные
-перевозки
- 
-             </h1> 
-          <p>Подробнее</p><br /> 
-          <a href="*">Заказать услугу</a>
-        </Textlari>
-          <Img>
-            <img src={temperature} alt="" />
+            <Textlari>
+              <h1>Рефрежираторные, температурные перевозки</h1>
+              <p>Подробнее</p>
+              <br />
+              <a href="*">Заказать услугу</a>
+            </Textlari>
+            <Img>
+              <img src={temperature} alt="" />
             </Img>
-            </Container>
-        </Card>        <Card>
+          </Container>
+        </Card>{" "}
+        <Card>
           <Container>
-          <Textlari>
-          <h1>Перевозка 
-опасных <br />
-грузов</h1> 
-          <p>Подробнее</p><br /> 
-          <a href="*">Заказать услугу</a>
-        </Textlari>
-          <Img>
-            <img src={uycha} alt="" />
+            <Textlari>
+              <h1>
+                Перевозка опасных <br />
+                грузов
+              </h1>
+              <p>Подробнее</p>
+              <br />
+              <a href="*">Заказать услугу</a>
+            </Textlari>
+            <Img>
+              <img src={uycha} alt="" />
             </Img>
-            </Container>
+          </Container>
         </Card>
         <Card>
           <Container>
-          <Textlari>
-          <h1>Не знаете какой тип <br /> перевозок подойдёт именно Вам? <br />
-            </h1> 
-          <p>Заполните форму и лучшие
- менеджеры <br /> ответят на все
- Ваши вопросы</p><br /> 
-          
-        </Textlari>
-          <Img>
-          <a href="*">Заполнить форму связи</a>
+            <Textlari>
+              <h1>
+                Не знаете какой тип <br /> перевозок подойдёт именно Вам? <br />
+              </h1>
+              <p>
+                Заполните форму и лучшие менеджеры <br /> ответят на все Ваши
+                вопросы
+              </p>
+              <br />
+            </Textlari>
+            <Img>
+              <a href="*">Заполнить форму связи</a>
             </Img>
-            </Container>
+          </Container>
         </Card>
         <Body2>
-        <h4>Мы бережно доставим любой груз от 1 тонны до 20 тонн в любую точку страны! С нами, можно спать спокойно и не переживать за сохранность груза, потому что мы несем полную материальную ответственность.
-ы бережно доставим любой груз от 1 тонны до 20 тонн в любую точку страны! С нами, можно спать спокойно и не переживать за сохранность груза, потому что мы несем полную материальную ответственность.
-</h4>
-      </Body2>
+          <h4>
+            Мы бережно доставим любой груз от 1 тонны до 20 тонн в любую точку
+            страны! С нами, можно спать спокойно и не переживать за сохранность
+            груза, потому что мы несем полную материальную ответственность. ы
+            бережно доставим любой груз от 1 тонны до 20 тонн в любую точку
+            страны! С нами, можно спать спокойно и не переживать за сохранность
+            груза, потому что мы несем полную материальную ответственность.
+          </h4>
+        </Body2>
       </Mainbody>
-      <center><h2>Почему выбирают нас</h2></center>
+
+      <MiddleTruck>
+        <h3>Наш автопарк</h3>
+        <h6>Собственный и наёмный транспорт: фуры и газели</h6>
+        <UL>
+          <li>Полуприцеп</li>
+          <li>Полуприцеп</li>
+          <li>Полуприцеп</li>
+          <li>Полуприцеп</li>
+          <li>Полуприцеп</li>
+          <li>Полуприцеп</li>
+          <li>Полуприцеп</li>
+          <li>Полуприцеп</li>
+          <li>Полуприцеп</li>
+        </UL>
+        <img src={Truck2} alt="" />
+      </MiddleTruck>
+
+      <center>
+        <h2>Почему выбирают нас</h2>
+      </center>
       <Comfort>
-        
         <Card>
           <Container>
-          <Textlarino2>
-          <h1>Предложим оптимальную
-стоимость перевозки</h1> 
-        </Textlarino2>
-          <Img2>
-            <img src={shieldcon} alt="" />
+            <Textlarino2>
+              <h1>Предложим оптимальную стоимость перевозки</h1>
+            </Textlarino2>
+            <Img2>
+              <img src={shieldcon} alt="" />
             </Img2>
-            </Container>
+          </Container>
         </Card>
 
-
         <Card>
           <Container>
-          <Textlarino2>
-          <h1>Подберём транспорт
-под
-вашу задачу</h1> 
-          
-        </Textlarino2>
-          <Img2>
-            <img src={truckcon} alt="" />
+            <Textlarino2>
+              <h1>Подберём транспорт под вашу задачу</h1>
+            </Textlarino2>
+            <Img2>
+              <img src={truckcon} alt="" />
             </Img2>
-            </Container>
+          </Container>
         </Card>
 
-
         <Card>
           <Container>
-          <Textlarino2>
-          <h1>Предоставим услуги 
-страхования груза</h1> 
-          
-        </Textlarino2>
-          <Img2>
-            <img src={Aptechka} alt="" />
+            <Textlarino2>
+              <h1>Предоставим услуги страхования груза</h1>
+            </Textlarino2>
+            <Img2>
+              <img src={Aptechka} alt="" />
             </Img2>
-            </Container>
+          </Container>
         </Card>
 
-
         <Card>
           <Container>
-          <Textlarino2>
-          <h1>Быстро оформим
-все
- документы. Работаем с НДС</h1> 
-           
-        </Textlarino2>
-          <Img2>
-            <img src={Document} alt="" />
+            <Textlarino2>
+              <h1>Быстро оформим все документы. Работаем с НДС</h1>
+            </Textlarino2>
+            <Img2>
+              <img src={Document} alt="" />
             </Img2>
-            </Container>
+          </Container>
         </Card>
 
         <Body>
-        <h4>Мы — межрегиональная транспортная компания
-MTK-logistics.
-Предоставляем услуги по перевозке всех видов грузов по Воронежу и России. Основной принцип нашей работы — надёжность и точность. Предлагаем
-сотрудничество в сфере грузоперевозок по выгодным условиям.</h4>
-      </Body>
-
+          <h4>
+            Мы — межрегиональная транспортная компания MTK-logistics.
+            Предоставляем услуги по перевозке всех видов грузов по Воронежу
+            и России. Основной принцип нашей работы — надёжность и точность.
+            Предлагаем сотрудничество в сфере грузоперевозок по выгодным
+            условиям.
+          </h4>
+        </Body>
       </Comfort>
-
     </div>
   );
 };

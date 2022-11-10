@@ -100,129 +100,132 @@ export const InputWrap = styled.div`
 `;
 
 export const Body = styled.div`
-margin-top:110px;
-margin-left:400px;
-margin-right:400px;
-margin-bottom:115px;
-display:flex;
-justify-content:center;
-align-items:center;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-text-align: center;
-color: grey;
-
-`
+  margin-top: 110px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: grey;
+`;
 
 export const H2 = styled.div`
-display:flex;
-justify-content:center;
-align-items:center;
-`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 export const Mainbody = styled.div`
-display:flex;
-flex-wrap:wrap;
-justify-content:space-evenly;
-align-items:space-between;
-gap:20px;
-`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: space-between;
+  gap: 20px;
+`;
 
 export const Card = styled.div`
-width: 530px;
-height: 216px;
-background: #F2F2F2;
-border-radius: 17px;
-margin-left:90px;
-`
+  width: 530px;
+  height: 216px;
+  background: #f2f2f2;
+  border-radius: 17px;
+  margin-left: 90px;
+`;
 export const Container = styled.div`
-display:flex;
-justify-content:space-between;
-align-items:center;
-`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
 
 export const Textlari = styled.div`
-> h1 {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 140%;
-/* or 28px */
+  > h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    /* or 28px */
 
+    /* text h1 */
 
-/* text h1 */
+    color: #2e2e2e;
+  }
+  > a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
 
-color: #2E2E2E;
-}
-> a {
-  text-decoration: none;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 21px;
-/* identical to box height */
+    /* main blue */
 
-
-/* main blue */
-
-color: #3284FF;
-}
-> p {
-color:red,
-
-}
-`
+    color: #3284ff;
+  }
+  > p {
+    color: red;
+  }
+`;
 
 export const Body2 = styled.div`
-margin-top:50px;
-margin-left:400px;
-margin-right:400px;
-margin-bottom:115px;
-display:flex;
-justify-content:center;
-align-items:center;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-text-align: center;
-color: grey;
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: grey;
+`;
 
-`
-
-export const Img = styled.div``
+export const Img = styled.div``;
 
 export const Img2 = styled.div`
-margin-top:50px;
-margin-right:20px;`
+  margin-top: 50px;
+  margin-right: 20px;
+`;
 
 export const Comfort = styled.div`
-display:flex;
-flex-wrap:wrap;
-justify-content:space-evenly;
-align-items:space-between;
-gap:20px;
-margin-top:60px;
-`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: space-between;
+  gap: 20px;
+  margin-top: 60px;
+`;
 export const Textlarino2 = styled.div`
-> h1 {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 140%;
-/* or 28px */
-margin-top:80px;
-margin-left:20px;
+  > h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    /* or 28px */
+    margin-top: 80px;
+    margin-left: 20px;
 
-/* text h1 */
+    /* text h1 */
 
-color: #2E2E2E;
-}
-`
+    color: #2e2e2e;
+  }
+`;
 
+export const MiddleTruck = styled.div`
+  background-color: #040d21;
+  color: white;
+ 
+`;
+export const UL = styled.ul`
+`;
