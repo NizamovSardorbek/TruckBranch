@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const ContainerTop = styled.div`
-  margin-left: 10%;
-
   align-items: center;
-  width: 85%;
+  width: 100%;
   height: 700px;
   background-color: #040d21;
   position: relative;
@@ -225,7 +223,61 @@ export const Textlarino2 = styled.div`
 export const MiddleTruck = styled.div`
   background-color: #040d21;
   color: white;
- 
+  padding-bottom: 130px;
+  width: 100%;
+
+
+`;
+export const Nash = styled.span`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  padding-top: 70px;
+`;
+export const NashTwo = styled.span`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+
+  /* or 24px */
+
+  color: #8193b2;
 `;
 export const UL = styled.ul`
+  width: 750px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-left: 400px;
+  position: relative;
+`;
+
+export const LI = styled.li`
+  list-style: none;
+  ::before {
+    content: "•";
+    color: #3284ff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 20px;
+  }
+`;
+
+export const MiddleImg = styled.img`
+  position: absolute;
+  top: 2300px;
+  left: 1000px;
 `;

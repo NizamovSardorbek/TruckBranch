@@ -19,6 +19,10 @@ import {
   Img2,
   MiddleTruck,
   UL,
+  LI,
+  Nash,
+  NashTwo,
+  MiddleImg,
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
 import moshina from "./assets/moshina.png";
@@ -30,7 +34,7 @@ import Aptechka from "./assets/Aptechka.png";
 import Document from "./assets/Document.png";
 import shieldcon from "./assets/shieldcon.png";
 import truckcon from "./assets/truckcon.png";
-import Truck2 from "./assets/Truck 2.svg"
+import Truck2 from "./assets/Truck 2.svg";
 import { MdSms } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
 import Truckss from "./assets/Truckss.svg";
@@ -200,20 +204,26 @@ const Truck = () => {
       </Mainbody>
 
       <MiddleTruck>
-        <h3>Наш автопарк</h3>
-        <h6>Собственный и наёмный транспорт: фуры и газели</h6>
+          <Nash>Наш автопарк</Nash>
+          <NashTwo>Собственный и наёмный транспорт: фуры и газели</NashTwo>
         <UL>
-          <li>Полуприцеп</li>
-          <li>Полуприцеп</li>
-          <li>Полуприцеп</li>
-          <li>Полуприцеп</li>
-          <li>Полуприцеп</li>
-          <li>Полуприцеп</li>
-          <li>Полуприцеп</li>
-          <li>Полуприцеп</li>
-          <li>Полуприцеп</li>
+          <div className="one">
+            <LI>Полуприцеп</LI>
+            <LI>Тентованные</LI>
+            <LI>Тентовый транспорт</LI>
+          </div>
+          <div className="two">
+            <LI>Montserrat</LI>
+            <LI>Бортовые</LI>
+            <LI>Контейнеровозы</LI>
+          </div>
+          <div className="three">
+            <LI>Изотермические </LI>
+            <LI>Рефрижераторы</LI>
+            <LI>Цельнометалические</LI>
+          </div>
         </UL>
-        <img src={Truck2} alt="" />
+        <MiddleImg src={Truck2} alt="" />
       </MiddleTruck>
 
       <center>
