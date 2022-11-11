@@ -40,7 +40,10 @@ import {
   GruzButton,
   KalkLink,
   Work,
-  Card2,Card3, Card4, Card5, Card6, Card7
+  Card2, Card3, Card4, Card5, Card6, Card7,
+  Hard,
+  Text,
+  InputLast
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
 import moshina from "./assets/moshina.png";
@@ -392,6 +395,9 @@ const Truck = () => {
       </Kalk>
       <br /><br /><br />
       <center><h1> Как мы работаем</h1></center>
+      
+      {/* 1 2 3 cards start */}
+      
       <Work>
         
       <Card2><div>
@@ -414,6 +420,44 @@ const Truck = () => {
          <h4>Оформление  документов и оплата </h4></div></Card7>
 
       </Work>
+      {/* 1 2 3 cards finish */}
+
+{/* Orada bitta qob ketgan rasmli */}
+      {/* Не знаете какой транспорт подойдет для перевозки вашего груза? start */}
+
+      <Hard>
+        <center> <h1>Не знаете какой транспорт подойдет для <br /> перевозки вашего груза? </h1></center>
+        <center><Text>Специалисты нашей компании ответят на все интересующие вопросы, <br /> дадут полезные советы и рекомендации</Text></center>
+
+        {/* <InputWrap>
+        <div>
+          <h5>Быстрый заказ услуг</h5>
+          <h6>Заполните, пожалуйста, форму </h6>
+        </div>
+        <input placeholder=" Иван " type="text" />
+        <input placeholder="+7 (_ _ _) _ _ _ _ _ _ _" type="number" />
+        <a href="*">Перезвоните мне</a>
+      </InputWrap> */}
+      </Hard>
+
+      <InputLast>
+        <div><h5>Быстрый заказ услуг</h5>
+          <h6>Заполните, пожалуйста, форму </h6></div>
+          <input placeholder=" Иван " type="text" />
+        <input placeholder="+7 (_ _ _) _ _ _ _ _ _ _" type="number" />
+        <a href="*">Перезвоните мне</a>
+      </InputLast>
+
+      
+
+
+
+
+
+
+
+            {/* Не знаете какой транспорт подойдет для перевозки вашего груза? finish */}
+
     </div>
   );
 };

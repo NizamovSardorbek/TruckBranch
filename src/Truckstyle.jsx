@@ -620,7 +620,7 @@ export const Work = styled.div`
 display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  position: absolute;
+  // position: absolute;
   margin-left:200px;
   flex-wrap:wrap;
   
@@ -815,4 +815,68 @@ line-height: 130%;
 color: #2E2E2E;
 }
 }`
+export const Hard = styled.div`
+
+`
+export const Text = styled.div`
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 140%;
+/* or 24px */
+
+text-align: center;
+
+/* text */
+
+color: #353535;`
+
+export const InputLast = styled.div`
+// border: 1px solid black;
+border: 1px solid black;
+position:absolute;
+display:flex;
+justify-content:center;
+align-items:center;
+margin-left:300px;
+width:900px;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: #f2f2f2;
+gap: 20px;
+> div{
+  line-height: 1px;
+};
+> a {
+       text-decoration: none;
+   };
+   > input {
+      :hover {
+        cursor: pointer;
+      }
+    }`
+//   position: absolute;
+//   top: 640px;
+//   margin-left: 350px;
+//   width: 900px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   padding-top: 20px;
+//   padding-bottom: 20px;
+//   background-color: #f2f2f2;
+//   gap: 20px;
+//   > div {
+//     line-height: 1px;
+//   }
+//   > a {
+//     text-decoration: none;
+//   }
+//   > input {
+//     :hover {
+//       cursor: pointer;
+//     }
+//   }`
+
 
