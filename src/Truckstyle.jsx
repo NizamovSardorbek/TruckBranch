@@ -1,4 +1,15 @@
 import styled from "styled-components";
+import first from "./assets/first.png"
+import second from "./assets/second.png"
+import third from "./assets/third.png"
+import forth from "./assets/forth.png"
+import fifth from "./assets/fifth.png"
+import six from "./assets/six.png"
+
+
+
+
+
 
 export const ContainerTop = styled.div`
   align-items: center;
@@ -604,3 +615,204 @@ export const GruzButton = styled.div`
     }
   }
 `;
+
+export const Work = styled.div`
+display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  position: absolute;
+  margin-left:200px;
+  flex-wrap:wrap;
+  
+`
+export const Card2 = styled.div`
+display: block;
+width: 350px;
+height:200px;
+background-image: url(${first});
+background-repeat: no-repeat;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+color: black;
+text-align: center;
+padding: 30px 5px;
+margin-left:50px;
+> div {
+margin-right:290px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+> h4 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 130%;
+/* or 24px */
+
+/* text h1 */
+
+color: #2E2E2E;
+}
+}
+`
+
+export const Card3 = styled.div`
+display: block;
+width: 350px;
+height:200px;
+background-image: url(${second});
+background-repeat: no-repeat;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+color: black;
+text-align: center;
+padding: 30px 5px;
+margin-left:50px;
+> div {
+margin-right:290px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+> h4 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 130%;
+/* or 24px */
+
+/* text h1 */
+
+color: #2E2E2E;
+}
+}
+`
+export const Card4 = styled.div`
+display: block;
+width: 350px;
+height:200px;
+background-image: url(${third});
+background-repeat: no-repeat;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+color: black;
+text-align: center;
+padding: 30px 5px;
+margin-left:50px;
+> div {
+margin-right:290px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+> h4 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 130%;
+/* or 24px */
+
+/* text h1 */
+
+color: #2E2E2E;
+}
+}`
+
+export const Card5 = styled.div`
+display: block;
+width: 350px;
+height:200px;
+background-image: url(${forth});
+background-repeat: no-repeat;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+color: black;
+text-align: center;
+padding: 30px 5px;
+margin-left:50px;
+> div {
+margin-right:290px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+> h4 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 130%;
+/* or 24px */
+
+/* text h1 */
+
+color: #2E2E2E;
+}
+}`
+export const Card6 = styled.div`
+display: block;
+width: 350px;
+height:200px;
+background-image: url(${fifth});
+background-repeat: no-repeat;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+color: black;
+text-align: center;
+padding: 30px 5px;
+margin-left:50px;
+> div {
+margin-right:290px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+> h4 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 130%;
+/* or 24px */
+
+/* text h1 */
+
+color: #2E2E2E;
+}
+}`
+export const Card7 = styled.div`
+display: block;
+width: 350px;
+height:200px;
+background-image: url(${six});
+background-repeat: no-repeat;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+color: black;
+text-align: center;
+padding: 30px 5px;
+margin-left:50px;
+> div {
+margin-right:290px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+> h4 {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 130%;
+/* or 24px */
+
+/* text h1 */
+
+color: #2E2E2E;
+}
+}`
+

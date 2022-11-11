@@ -39,6 +39,8 @@ import {
   ButtonWrap,
   GruzButton,
   KalkLink,
+  Work,
+  Card2,Card3, Card4, Card5, Card6, Card7
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
 import moshina from "./assets/moshina.png";
@@ -51,6 +53,7 @@ import Document from "./assets/Document.png";
 import shieldcon from "./assets/shieldcon.png";
 import truckcon from "./assets/truckcon.png";
 import Truck2 from "./assets/Truck 2.svg";
+import birinchi from "./assets/birinchi.png"
 import { MdSms } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
 import Truckss from "./assets/Truckss.svg";
@@ -387,6 +390,30 @@ const Truck = () => {
           </KalkLink>
         </Kalkchild2>
       </Kalk>
+      <br /><br /><br />
+      <center><h1> Как мы работаем</h1></center>
+      <Work>
+        
+      <Card2><div>
+          <img src={birinchi} alt="" />
+         <h4>Вашзвонок или заявка на сайте</h4></div></Card2>
+        <Card3><div>
+          <img src={birinchi} alt="" />
+         <h4>Обработка данных менеджерами</h4></div></Card3>
+         <Card4><div>
+          <img src={birinchi} alt="" />
+         <h4>Заключение договора</h4></div></Card4>
+        <Card5><div>
+          <img src={birinchi} alt="" />
+         <h4>Подача транспорта</h4></div></Card5>        
+         <Card6><div>
+          <img src={birinchi} alt="" />
+         <h4>Доставка вашего груза</h4></div></Card6>        
+         <Card7><div>
+          <img src={birinchi} alt="" />
+         <h4>Оформление  документов и оплата </h4></div></Card7>
+
+      </Work>
     </div>
   );
 };
