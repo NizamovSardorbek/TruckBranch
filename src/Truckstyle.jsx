@@ -307,8 +307,8 @@ export const TonWrap = styled.div`
   align-items: center;
   justify-content: center;
   gap: 130px;
-  height: 200px;
-
+  height: 200px; margin: 0 13%;
+  padding-right: 4%;
 `;
 export const TonChild = styled.div`
   display: flex;
@@ -347,5 +347,260 @@ export const TonChild = styled.div`
     /* text */
 
     color: #353535;
+  }
+`;
+
+export const Kalk = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 600px;
+  background: #040d21;
+  margin-top: 5%;
+`;
+export const Kalkchild1 = styled.div`
+  > h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    color: #ffffff;
+    margin-top: 10%;
+  }
+`;
+export const KalkWord = styled.h2`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+
+  color: #ffffff;
+`;
+
+export const KalkWrap = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 7%;
+`;
+export const KalkLeft = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  > i {
+    position: absolute;
+    color: #3284ff;
+    left: 202px;
+    top: 39px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 6px 6px;
+    text-align: center;
+    :hover {
+      cursor: pointer;
+      color: red;
+    }
+  }
+  > span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    color: #8193b2;
+    margin-bottom: 5%;
+  }
+  > input {
+    width: 200px;
+    height: 40px;
+    background: #8193b2;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    color: #ffff;
+    ::placeholder {
+      color: #dbdbdb;
+    }
+    :hover {
+      cursor: pointer;
+    }
+  }
+`;
+export const KalkRight = styled.div`
+  display: flex;
+  flex-direction: column;
+  > span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    color: #8193b2;
+    margin-bottom: 5%;
+  }
+
+  > input {
+    width: 220px;
+    height: 40px;
+    background: #8193b2;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    color: #ffff;
+    ::placeholder {
+      color: #dbdbdb;
+    }
+  }
+`;
+export const GruzWrap = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 3%;
+`;
+export const GruzLeft = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  > h6 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    color: #8193b2;
+  }
+`;
+export const Checkboks = styled.span`
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  > span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    color: #dbdbdb;
+  }
+`;
+export const GruzRight = styled.div`
+  margin-right: 50px;
+  > h6 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    color: #8193b2;
+  }
+`;
+export const Kalkchild2 = styled.div`
+  color: white;
+  > h6 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    /* or 18px */
+
+    color: #8193b2;
+    width: 530px;
+    margin-left: 22%;
+    margin-top: 11%;
+  }
+  > a {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+    /* main blue */
+
+    color: #3284ff;
+    margin-left: 34%;
+    border: 1px solid red;
+    padding-bottom: 100px;
+  }
+`;
+export const KalkLink = styled.div`
+  margin-top: 10%;
+  margin-left: 44%;
+  > a {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+
+    /* main blue */
+
+    color: #3284ff;
+  }
+`;
+export const ButtonWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  justify-content: center;
+  > h5 {
+    margin-right: 33%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    color: #8193b2;
+  }
+`;
+export const GruzButton = styled.div`
+  display: flex;
+  gap: 5px;
+  > button {
+    width: 220px;
+    height: 40px;
+    font-size: 10px;
+    background: #8193b2;
+    border-radius: 5px 0px 0px 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dbdbdb;
+    :hover {
+      cursor: pointer;
+      background: #3284ff;
+    }
   }
 `;

@@ -25,6 +25,20 @@ import {
   MiddleImg,
   TonWrap,
   TonChild,
+  Kalk,
+  Kalkchild1,
+  Kalkchild2,
+  KalkLeft,
+  KalkWord,
+  KalkRight,
+  KalkWrap,
+  GruzWrap,
+  GruzLeft,
+  GruzRight,
+  Checkboks,
+  ButtonWrap,
+  GruzButton,
+  KalkLink,
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
 import moshina from "./assets/moshina.png";
@@ -40,6 +54,7 @@ import Truck2 from "./assets/Truck 2.svg";
 import { MdSms } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
 import Truckss from "./assets/Truckss.svg";
+import { BsArrowLeftRight } from "react-icons/bs";
 const Truck = () => {
   return (
     <div>
@@ -300,6 +315,78 @@ const Truck = () => {
           <span className="words">городов доставки</span>
         </TonChild>
       </TonWrap>
+      <Kalk>
+        <Kalkchild1>
+          <KalkWord>Калькулятор стоимости</KalkWord>
+          <KalkWrap>
+            <KalkLeft>
+              <span>Откуда</span>
+              <input placeholder="Воронеж" type="text" />{" "}
+              <i>
+                <BsArrowLeftRight />
+              </i>
+            </KalkLeft>
+            <KalkRight>
+              <span>Куда</span>
+              <input placeholder="Санкт-Петербург" type="text" />
+            </KalkRight>
+          </KalkWrap>
+          <GruzWrap>
+            <GruzLeft>
+              <h6>Тип груза</h6>
+              <Checkboks>
+                <input type="checkbox" />
+                <span>Температурный</span>
+              </Checkboks>
+              <Checkboks>
+                <input type="checkbox" />
+                <span>Опасный</span>
+              </Checkboks>
+            </GruzLeft>
+            <GruzRight>
+              <h6>Дополнительные услуги</h6>
+              <Checkboks>
+                <input type="checkbox" />
+                <span>Страхование</span>
+              </Checkboks>
+              <Checkboks>
+                <input type="checkbox" />
+                <span>Срочная доставка</span>
+              </Checkboks>
+            </GruzRight>
+          </GruzWrap>
+          <h3>Предварительная стоимость услуги: 22 000 руб</h3>
+        </Kalkchild1>
+        <Kalkchild2>
+          <h6>
+            Калькулятор автоматически рассчитывает стоимость, исходя из тарифов
+            за км, которые обычно действуют в нашей транспортной компании. В
+            действительности цену сможет рассчитать менеджер индивидуально,
+            погрешность может составлять от 5 до 15%
+          </h6>
+
+          <KalkWrap>
+            <KalkLeft>
+              <span>Вес груза (т.)</span>
+              <input placeholder="5 тонн" type="text" />{" "}
+            </KalkLeft>
+            <KalkRight>
+              <span>Объём (м3)</span>
+              <input placeholder="1000 м3" type="text" />
+            </KalkRight>
+          </KalkWrap>
+          <ButtonWrap>
+            <h5>Дополнительные параметры</h5>
+            <GruzButton>
+              <button>Длинна груза, кол-во паллет и тд.</button>
+              <button>Рассчитать стоимость</button>
+            </GruzButton>
+          </ButtonWrap>
+          <KalkLink>
+            <a href="*">Связаться с меденжером для заказа</a>
+          </KalkLink>
+        </Kalkchild2>
+      </Kalk>
     </div>
   );
 };
