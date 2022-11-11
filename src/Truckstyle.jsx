@@ -63,6 +63,10 @@ export const LeftTruck = styled.div`
     background: #3284ff;
     border-radius: 7px;
     color: white;
+    :hover {
+      cursor: pointer;
+      color: red;
+    }
     :active {
       transform: scale(0.3);
       transition: all 0.3s ease-in;
@@ -94,6 +98,11 @@ export const InputWrap = styled.div`
   }
   > a {
     text-decoration: none;
+  }
+  > input {
+    :hover {
+      cursor: pointer;
+    }
   }
 `;
 
@@ -290,4 +299,53 @@ export const MiddleImg = styled.img`
   position: absolute;
   top: 2300px;
   left: 1000px;
+`;
+
+export const TonWrap = styled.div`
+  display: flex;
+  background: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  height: 200px;
+
+`;
+export const TonChild = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 140px;
+  gap: 20px;
+  > span {
+    width: 140px;
+    margin-left: 20px;
+  }
+  .counter {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 140%;
+    /* identical to box height, or 42px */
+
+    /* text h1 */
+
+    color: #2e2e2e;
+  }
+  .words {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* text */
+
+    color: #353535;
+  }
 `;

@@ -23,6 +23,8 @@ import {
   Nash,
   NashTwo,
   MiddleImg,
+  TonWrap,
+  TonChild,
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
 import moshina from "./assets/moshina.png";
@@ -83,7 +85,7 @@ const Truck = () => {
           <h6>Заполните, пожалуйста, форму </h6>
         </div>
         <input placeholder=" Иван " type="text" />
-        <input placeholder="+7 (_ _ _) _ _ _ _ _ _ _" type="text" />
+        <input placeholder="+7 (_ _ _) _ _ _ _ _ _ _" type="number" />
         <a href="*">Перезвоните мне</a>
       </InputWrap>
 
@@ -204,8 +206,8 @@ const Truck = () => {
       </Mainbody>
 
       <MiddleTruck>
-          <Nash>Наш автопарк</Nash>
-          <NashTwo>Собственный и наёмный транспорт: фуры и газели</NashTwo>
+        <Nash>Наш автопарк</Nash>
+        <NashTwo>Собственный и наёмный транспорт: фуры и газели</NashTwo>
         <UL>
           <div className="one">
             <LI>Полуприцеп</LI>
@@ -284,6 +286,20 @@ const Truck = () => {
           </h4>
         </Body>
       </Comfort>
+      <TonWrap>
+        <TonChild>
+          <span className="counter">197</span>{" "}
+          <span className="words">тонн груза ежедневно</span>
+        </TonChild>
+        <TonChild>
+          <span className="counter">93</span>{" "}
+          <span className="words">единиц транспорта в пути</span>
+        </TonChild>
+        <TonChild>
+          <span className="counter"> 9352</span>{" "}
+          <span className="words">городов доставки</span>
+        </TonChild>
+      </TonWrap>
     </div>
   );
 };
