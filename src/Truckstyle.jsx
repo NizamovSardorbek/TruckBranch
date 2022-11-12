@@ -1,15 +1,10 @@
 import styled from "styled-components";
-import first from "./assets/first.png"
-import second from "./assets/second.png"
-import third from "./assets/third.png"
-import forth from "./assets/forth.png"
-import fifth from "./assets/fifth.png"
-import six from "./assets/six.png"
-
-
-
-
-
+import first from "./assets/first.png";
+import second from "./assets/second.png";
+import third from "./assets/third.png";
+import forth from "./assets/forth.png";
+import fifth from "./assets/fifth.png";
+import six from "./assets/six.png";
 
 export const ContainerTop = styled.div`
   align-items: center;
@@ -318,7 +313,8 @@ export const TonWrap = styled.div`
   align-items: center;
   justify-content: center;
   gap: 130px;
-  height: 200px; margin: 0 13%;
+  height: 200px;
+  margin: 0 13%;
   padding-right: 4%;
 `;
 export const TonChild = styled.div`
@@ -617,266 +613,325 @@ export const GruzButton = styled.div`
 `;
 
 export const Work = styled.div`
-display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   // position: absolute;
-  margin-left:200px;
-  flex-wrap:wrap;
-  
-`
+  margin-left: 200px;
+  flex-wrap: wrap;
+`;
 export const Card2 = styled.div`
-display: block;
-width: 350px;
-height:200px;
-background-image: url(${first});
-background-repeat: no-repeat;
+  display: block;
+  width: 350px;
+  height: 200px;
+  background-image: url(${first});
+  background-repeat: no-repeat;
   left: 0px;
   top: 0px;
   z-index: -1;
-color: black;
-text-align: center;
-padding: 30px 5px;
-margin-left:50px;
-> div {
-margin-right:290px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-> h4 {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 130%;
-/* or 24px */
+  color: black;
+  text-align: center;
+  padding: 30px 5px;
+  margin-left: 50px;
+  > div {
+    margin-right: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > h4 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 130%;
+      /* or 24px */
 
-/* text h1 */
+      /* text h1 */
 
-color: #2E2E2E;
-}
-}
-`
+      color: #2e2e2e;
+    }
+  }
+`;
 
 export const Card3 = styled.div`
-display: block;
-width: 350px;
-height:200px;
-background-image: url(${second});
-background-repeat: no-repeat;
+  display: block;
+  width: 350px;
+  height: 200px;
+  background-image: url(${second});
+  background-repeat: no-repeat;
   left: 0px;
   top: 0px;
   z-index: -1;
-color: black;
-text-align: center;
-padding: 30px 5px;
-margin-left:50px;
-> div {
-margin-right:290px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-> h4 {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 130%;
-/* or 24px */
+  color: black;
+  text-align: center;
+  padding: 30px 5px;
+  margin-left: 50px;
+  > div {
+    margin-right: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > h4 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 130%;
+      /* or 24px */
 
-/* text h1 */
+      /* text h1 */
 
-color: #2E2E2E;
-}
-}
-`
+      color: #2e2e2e;
+    }
+  }
+`;
 export const Card4 = styled.div`
-display: block;
-width: 350px;
-height:200px;
-background-image: url(${third});
-background-repeat: no-repeat;
+  display: block;
+  width: 350px;
+  height: 200px;
+  background-image: url(${third});
+  background-repeat: no-repeat;
   left: 0px;
   top: 0px;
   z-index: -1;
-color: black;
-text-align: center;
-padding: 30px 5px;
-margin-left:50px;
-> div {
-margin-right:290px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-> h4 {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 130%;
-/* or 24px */
+  color: black;
+  text-align: center;
+  padding: 30px 5px;
+  margin-left: 50px;
+  > div {
+    margin-right: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > h4 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 130%;
+      /* or 24px */
 
-/* text h1 */
+      /* text h1 */
 
-color: #2E2E2E;
-}
-}`
+      color: #2e2e2e;
+    }
+  }
+`;
 
 export const Card5 = styled.div`
-display: block;
-width: 350px;
-height:200px;
-background-image: url(${forth});
-background-repeat: no-repeat;
+  display: block;
+  width: 350px;
+  height: 200px;
+  background-image: url(${forth});
+  background-repeat: no-repeat;
   left: 0px;
   top: 0px;
   z-index: -1;
-color: black;
-text-align: center;
-padding: 30px 5px;
-margin-left:50px;
-> div {
-margin-right:290px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-> h4 {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 130%;
-/* or 24px */
+  color: black;
+  text-align: center;
+  padding: 30px 5px;
+  margin-left: 50px;
+  > div {
+    margin-right: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > h4 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 130%;
+      /* or 24px */
 
-/* text h1 */
+      /* text h1 */
 
-color: #2E2E2E;
-}
-}`
+      color: #2e2e2e;
+    }
+  }
+`;
 export const Card6 = styled.div`
-display: block;
-width: 350px;
-height:200px;
-background-image: url(${fifth});
-background-repeat: no-repeat;
+  display: block;
+  width: 350px;
+  height: 200px;
+  background-image: url(${fifth});
+  background-repeat: no-repeat;
   left: 0px;
   top: 0px;
   z-index: -1;
-color: black;
-text-align: center;
-padding: 30px 5px;
-margin-left:50px;
-> div {
-margin-right:290px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-> h4 {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 130%;
-/* or 24px */
+  color: black;
+  text-align: center;
+  padding: 30px 5px;
+  margin-left: 50px;
+  > div {
+    margin-right: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > h4 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 130%;
+      /* or 24px */
 
-/* text h1 */
+      /* text h1 */
 
-color: #2E2E2E;
-}
-}`
+      color: #2e2e2e;
+    }
+  }
+`;
 export const Card7 = styled.div`
-display: block;
-width: 350px;
-height:200px;
-background-image: url(${six});
-background-repeat: no-repeat;
+  display: block;
+  width: 350px;
+  height: 200px;
+  background-image: url(${six});
+  background-repeat: no-repeat;
   left: 0px;
   top: 0px;
   z-index: -1;
-color: black;
-text-align: center;
-padding: 30px 5px;
-margin-left:50px;
-> div {
-margin-right:290px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-> h4 {
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 130%;
-/* or 24px */
+  color: black;
+  text-align: center;
+  padding: 30px 5px;
+  margin-left: 50px;
+  > div {
+    margin-right: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > h4 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 130%;
+      /* or 24px */
 
-/* text h1 */
+      /* text h1 */
 
-color: #2E2E2E;
-}
-}`
-export const Hard = styled.div`
-
-`
+      color: #2e2e2e;
+    }
+  }
+`;
+export const Hard = styled.div``;
 export const Text = styled.div`
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 140%;
-/* or 24px */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  /* or 24px */
 
-text-align: center;
+  text-align: center;
 
-/* text */
+  /* text */
 
-color: #353535;`
+  color: #353535;
+`;
 
 export const InputLast = styled.div`
-// border: 1px solid black;
-border: 1px solid black;
-position:absolute;
-display:flex;
-justify-content:center;
-align-items:center;
-margin-left:300px;
-width:900px;
-padding-top: 20px;
-padding-bottom: 20px;
-background-color: #f2f2f2;
-gap: 20px;
-> div{
-  line-height: 1px;
-};
-> a {
-       text-decoration: none;
-   };
-   > input {
-      :hover {
-        cursor: pointer;
-      }
-    }`
-//   position: absolute;
-//   top: 640px;
-//   margin-left: 350px;
-//   width: 900px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   padding-top: 20px;
-//   padding-bottom: 20px;
-//   background-color: #f2f2f2;
-//   gap: 20px;
-//   > div {
-//     line-height: 1px;
-//   }
-//   > a {
-//     text-decoration: none;
-//   }
-//   > input {
-//     :hover {
-//       cursor: pointer;
-//     }
-//   }`
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  width: 900px;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  gap: 20px;
+  margin-top: 5%;
+  > div {
+    line-height: 1px;
+  }
+  > a {
+    text-decoration: none;
+  }
+  > input {
+    :hover {
+      cursor: pointer;
+    }
+  }
+`;
 
+export const FooterWord = styled.div`
+  display: flex;
+  background-color: #f2f2f2;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  /* identical to box height, or 28px */
 
+  color: #000000;
+
+  opacity: 0.5;
+  gap: 20px;
+  margin-top: 15px;
+`;
+export const FooterWrap = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid red;
+  background-color: #040d21;
+  height: 400px;
+  width: 100%;
+  color: white;
+`;
+export const LeftFooter = styled.div`
+  > img {
+    margin-left: 20%;
+    margin-top: 20%;
+    margin-bottom: 5%;
+  }
+  > span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+
+    color: #7c8696;
+  }
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    /* or 19px */
+
+    color: #7c8696;
+    margin-top: 15%; text-align: center;
+  }
+`;
+export const LeftDiv = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  line-height: 30px;
+  > a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+
+    /* main blue */
+
+    color: #3284ff;
+    margin-left: 20%;
+  }
+ 
+`;
+
+export const MiddleFooter = styled.div``;
+export const RightFooter = styled.div``;

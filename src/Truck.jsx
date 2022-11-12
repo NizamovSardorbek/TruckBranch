@@ -40,10 +40,20 @@ import {
   GruzButton,
   KalkLink,
   Work,
-  Card2, Card3, Card4, Card5, Card6, Card7,
+  Card2,
+  Card3,
+  Card4,
+  Card5,
+  Card6,
+  Card7,
   Hard,
   Text,
-  InputLast
+  InputLast,
+  FooterWord,
+  FooterWrap,
+  LeftFooter,
+  LeftDiv,
+  LeftMtk,
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
 import moshina from "./assets/moshina.png";
@@ -56,11 +66,12 @@ import Document from "./assets/Document.png";
 import shieldcon from "./assets/shieldcon.png";
 import truckcon from "./assets/truckcon.png";
 import Truck2 from "./assets/Truck 2.svg";
-import birinchi from "./assets/birinchi.png"
+import birinchi from "./assets/birinchi.png";
 import { MdSms } from "react-icons/md";
 import { IoCallSharp } from "react-icons/io5";
 import Truckss from "./assets/Truckss.svg";
 import { BsArrowLeftRight } from "react-icons/bs";
+import FooterTitle from "./assets/Footertitle.svg";
 const Truck = () => {
   return (
     <div>
@@ -393,43 +404,84 @@ const Truck = () => {
           </KalkLink>
         </Kalkchild2>
       </Kalk>
-      <br /><br /><br />
-      <center><h1> Как мы работаем</h1></center>
-      
-      {/* 1 2 3 cards start */}
-      
-      <Work>
-        
-      <Card2><div>
-          <img src={birinchi} alt="" />
-         <h4>Вашзвонок или заявка на сайте</h4></div></Card2>
-        <Card3><div>
-          <img src={birinchi} alt="" />
-         <h4>Обработка данных менеджерами</h4></div></Card3>
-         <Card4><div>
-          <img src={birinchi} alt="" />
-         <h4>Заключение договора</h4></div></Card4>
-        <Card5><div>
-          <img src={birinchi} alt="" />
-         <h4>Подача транспорта</h4></div></Card5>        
-         <Card6><div>
-          <img src={birinchi} alt="" />
-         <h4>Доставка вашего груза</h4></div></Card6>        
-         <Card7><div>
-          <img src={birinchi} alt="" />
-         <h4>Оформление  документов и оплата </h4></div></Card7>
+      <br />
+      <br />
+      <br />
+      <center>
+        <h1> Как мы работаем</h1>
+      </center>
 
+      {/* 1 2 3 cards start */}
+
+      <Work>
+        <Card2>
+          <div>
+            <img src={birinchi} alt="" />
+            <h4>Вашзвонок или заявка на сайте</h4>
+          </div>
+        </Card2>
+        <Card3>
+          <div>
+            <img src={birinchi} alt="" />
+            <h4>Обработка данных менеджерами</h4>
+          </div>
+        </Card3>
+        <Card4>
+          <div>
+            <img src={birinchi} alt="" />
+            <h4>Заключение договора</h4>
+          </div>
+        </Card4>
+        <Card5>
+          <div>
+            <img src={birinchi} alt="" />
+            <h4>Подача транспорта</h4>
+          </div>
+        </Card5>
+        <Card6>
+          <div>
+            <img src={birinchi} alt="" />
+            <h4>Доставка вашего груза</h4>
+          </div>
+        </Card6>
+        <Card7>
+          <div>
+            <img src={birinchi} alt="" />
+            <h4>Оформление документов и оплата </h4>
+          </div>
+        </Card7>
       </Work>
       {/* 1 2 3 cards finish */}
 
-{/* Orada bitta qob ketgan rasmli */}
+      {/* Orada bitta qob ketgan rasmli */}
       {/* Не знаете какой транспорт подойдет для перевозки вашего груза? start */}
 
       <Hard>
-        <center> <h1>Не знаете какой транспорт подойдет для <br /> перевозки вашего груза? </h1></center>
-        <center><Text>Специалисты нашей компании ответят на все интересующие вопросы, <br /> дадут полезные советы и рекомендации</Text></center>
+        <center>
+          {" "}
+          <h1>
+            Не знаете какой транспорт подойдет для <br /> перевозки вашего
+            груза?{" "}
+          </h1>
+        </center>
+        <center>
+          <Text>
+            Специалисты нашей компании ответят на все интересующие вопросы,{" "}
+            <br /> дадут полезные советы и рекомендации
+          </Text>
+        </center>
 
-        {/* <InputWrap>
+        <InputWrap>
+          <div>
+            <h5>Быстрый заказ услуг</h5>
+            <h6>Заполните, пожалуйста, форму </h6>
+          </div>
+          <input placeholder=" Иван " type="text" />
+          <input placeholder="+7 (_ _ _) _ _ _ _ _ _ _" type="number" />
+          <a href="*">Перезвоните мне</a>
+        </InputWrap>
+      </Hard>
+      <InputLast>
         <div>
           <h5>Быстрый заказ услуг</h5>
           <h6>Заполните, пожалуйста, форму </h6>
@@ -437,27 +489,31 @@ const Truck = () => {
         <input placeholder=" Иван " type="text" />
         <input placeholder="+7 (_ _ _) _ _ _ _ _ _ _" type="number" />
         <a href="*">Перезвоните мне</a>
-      </InputWrap> */}
-      </Hard>
-
-      <InputLast>
-        <div><h5>Быстрый заказ услуг</h5>
-          <h6>Заполните, пожалуйста, форму </h6></div>
-          <input placeholder=" Иван " type="text" />
-        <input placeholder="+7 (_ _ _) _ _ _ _ _ _ _" type="number" />
-        <a href="*">Перезвоните мне</a>
       </InputLast>
 
-      
-
-
-
-
-
-
-
-            {/* Не знаете какой транспорт подойдет для перевозки вашего груза? finish */}
-
+      {/* Не знаете какой транспорт подойдет для перевозки вашего груза? finish */}
+      <FooterWord>
+        <span>Логотип партнёра </span>
+        <span>Логотип партнёра </span>
+        <span>Логотип партнёра </span>
+        <span>Логотип партнёра </span>
+        <span>Логотип партнёра </span>
+        <span>Логотип партнёра </span>
+      </FooterWord>
+      <FooterWrap>
+        <LeftFooter>
+          <img src={FooterTitle} alt="" />
+          <LeftDiv>
+            <a href="">Скачать</a> <span> реквизиты компании</span>
+          </LeftDiv>
+          <LeftDiv>
+            <a href="">Скачать</a> <span> бланк договора-заявки </span>
+          </LeftDiv>
+          <p>© Все права защищены / MTK logistics / 2021</p>
+        </LeftFooter>
+        <div>MiddleFooter</div>
+        <div>RightFooter</div>
+      </FooterWrap>
     </div>
   );
 };
