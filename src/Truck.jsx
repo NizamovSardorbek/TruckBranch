@@ -54,6 +54,9 @@ import {
   LeftFooter,
   LeftDiv,
   LeftMtk,
+  MiddleFooter,
+  RightFooter,
+  FooterCall,
 } from "./Truckstyle";
 import Mtk from "./assets/mtk.svg";
 import moshina from "./assets/moshina.png";
@@ -72,6 +75,7 @@ import { IoCallSharp } from "react-icons/io5";
 import Truckss from "./assets/Truckss.svg";
 import { BsArrowLeftRight } from "react-icons/bs";
 import FooterTitle from "./assets/Footertitle.svg";
+import { CiLocationOn } from "react-icons/ci";
 const Truck = () => {
   return (
     <div>
@@ -511,8 +515,31 @@ const Truck = () => {
           </LeftDiv>
           <p>© Все права защищены / MTK logistics / 2021</p>
         </LeftFooter>
-        <div>MiddleFooter</div>
-        <div>RightFooter</div>
+        <MiddleFooter>
+          <div>
+            ГРУЗОПЕРЕВОЗКИ ПО РОССИИ Междугородние перевозки отдельной машиной
+            Доставка сборных грузов Негабаритные грузоперевозки Рефрижераторные,
+            температурные перевозки Перевозка опасных грузов
+          </div>
+          <p>
+            ЗВОНИТЕ! НАШИ МЕНЕДЖЕРЫ ПРОФЕССИОНАЛЬНО ОТВЕТЯТ НА ВСЕ ВОПРОСЫ И
+            ПОДБЕРУТ МАКСИМАЛЬНО ВЫГОДНЫЙ ДЛЯ ВАС ВАРИАНТ СОТРУДНИЧЕСТВА.
+          </p>
+        </MiddleFooter>
+        <RightFooter>
+          <FooterCall>
+            <h5>
+              <IoCallSharp /> +7 (903) 652 67 55{" "}
+            </h5>
+            <h5>
+              <MdSms /> manager@mtk-logistics.ru{" "}
+            </h5>
+            <h5>
+              <CiLocationOn /> г. Воронеж, ул. Дорожная, 4 Оффис 59
+            </h5>
+            <h6>Разработчик сайта Елена Ратных</h6>
+          </FooterCall>
+        </RightFooter>
       </FooterWrap>
     </div>
   );
